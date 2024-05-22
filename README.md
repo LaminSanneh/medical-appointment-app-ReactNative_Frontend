@@ -11,6 +11,14 @@ Laravel Backend Repository is here: [here](https://github.com/LaminSanneh/medica
 - Messaging system for doctor to patient and vice-versa
 - Doctor management through app
 
+## Highlighted Technical Aspects and Technologies Used
+- Used [React Redux Toolkit](https://redux-toolkit.js.org/) along with redux-persist for storing data for offline usage
+- Used [react-native-paper](https://callstack.github.io/react-native-paper) library for the ui styling
+- Used [react-navigation](https://reactnavigation.org/)
+- Used [Typescript](https://www.typescriptlang.org/)
+- Used [react-native-dotenv](https://www.npmjs.com/package/react-native-dotenv) for multi environment variable managemment
+- Used [axios](https://axios-http.com/docs/intro) for http calls
+
 # React Native Screens
 <img src="readme-images/appointment-schedule-1.png" alt="appointment-schedule-1" width="200" />
 <img src="readme-images/appointment-schedule-2.png" alt="appointment-schedule-2" width="200" />
