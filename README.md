@@ -1,3 +1,14 @@
+# Project Name: Laravel and ReactNative Medical Appintment App
+
+## Important Links
+Laravel Backend Repository is here: [here](https://github.com/LaminSanneh/medical-appointment-app-Laravel-Backend)
+
+## Project Status: Work In Progress
+
+## Items in the workings
+- Messaging system for doctor to patient and vice-versa
+- Doctor management through app
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
