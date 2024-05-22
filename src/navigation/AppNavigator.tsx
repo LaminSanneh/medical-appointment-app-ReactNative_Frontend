@@ -2,7 +2,6 @@ import React, {useEffect} from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import HomeScreen from '../screens/HomeScreen';
 import LoginScreen from '../screens/LoginScreen';
-import StaffManagementScreen from '../screens/StaffManagementScreen';
 import {
   DrawerNavigationProp,
   createDrawerNavigator,
@@ -16,7 +15,7 @@ import authHeader from '../services/authHeader';
 import DoctorsScreen from '../screens/DoctorsScreen';
 import UpdateUserProfileScreen from '../screens/UpdateUserProfileScreen';
 import {Alert} from 'react-native';
-import {fetchUserData, logoutUser} from '../store/slices/authSlice';
+import {fetchUserData} from '../store/slices/authSlice';
 import DoctorAppointmentsListScreen from '../screens/DoctorAppointmentsListScreen';
 import DoctorAppointmentConfirmationScreen from '../screens/DoctorAppointmentConfirmationScreen';
 import LogoutScreen from '../screens/LogoutScreen';
@@ -131,7 +130,7 @@ const AppNavigator = () => {
       <Drawer.Navigator
         defaultStatus={isTest ? 'open' : 'closed'}
         // TODO: FInd a way to show appointmens list for doctor or patient
-        initialRouteName="AppointmentsList">
+        initialRouteName="Home">
         {isAuthenticated ? (
           <>
             <Drawer.Screen
