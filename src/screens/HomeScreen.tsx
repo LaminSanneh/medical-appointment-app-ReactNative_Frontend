@@ -13,6 +13,8 @@ const HomeScreen = () => {
     // dispatch(loginUser({email, password}));
   };
 
+  // TODO: Add buttons here to go to correct appointments list screen or summaries many information here like,  next three upcoming appointments
+
   return (
     <View style={styles.container}>
       <Text>Home Screen</Text>
