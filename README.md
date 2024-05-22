@@ -15,6 +15,7 @@ Laravel Backend Repository is here: [here](https://github.com/LaminSanneh/medica
 - Allow organization admin to enable or disable doctor registration registration
 - Allow organization to require admin acceptance/confirmation after registration or automatically allow login
 - Allow patients to give doctor feedback and rating
+- Allow Selecting multiple continous times when creating an appointment
 
 ## Technical Requirement Items in the workings
 - Setup detox library testing
