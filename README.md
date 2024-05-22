@@ -7,9 +7,19 @@ Laravel Backend Repository is here: [here](https://github.com/LaminSanneh/medica
 
 ## Project Status: Work In Progress
 
-## Items in the workings
+## Functional Requirement Items in the workings
 - Messaging system for doctor to patient and vice-versa
-- Doctor management through app
+   - Allow doctors to share files in chats with patients and vice versa (Might consider moving to a dedicated documents sharing section)
+- Allow organization admin to add doctor through app
+- Allow organization admin to enable or disable patient registration
+- Allow organization admin to enable or disable doctor registration registration
+- Allow organization to require admin acceptance/confirmation after registration or automatically allow login
+- Allow patients to give doctor feedback and rating
+
+## Technical Requirement Items in the workings
+- Setup detox library testing
+- Secure auth token storage on frontend as it is currently stored as plaintext
+- Centralize and make better the error handling from bacend api calls
 
 ## Highlighted Technical Aspects and Technologies Used
 - Used [React Redux Toolkit](https://redux-toolkit.js.org/) along with redux-persist for storing data for offline usage
