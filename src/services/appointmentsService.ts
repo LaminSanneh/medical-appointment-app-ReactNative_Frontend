@@ -15,21 +15,6 @@ export const getAppointments = async () => {
   }
 };
 
-export const getAppointmentsForDoctor = async (doctorId: number) => {
-  try {
-    const headers = {headers: authHeader.getAuthHeader()};
-    const response = await axios.get(
-      `${API_URL}/appointments/appointmentsForDoctor/${doctorId}`,
-      headers,
-    );
-    return response.data;
-  } catch (error: any) {
-    throw new Error(
-      error.response?.data?.message || 'Failed to fetch appointments',
-    );
-  }
-};
-
 export const getAppointment = async (appointmentId: number) => {
   try {
     const headers = {headers: authHeader.getAuthHeader()};

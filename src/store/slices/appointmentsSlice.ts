@@ -4,7 +4,6 @@ import {
   createNewAppointment,
   getAppointment,
   getAppointments,
-  getAppointmentsForDoctor,
   getAppointmentsForDoctorAndCurrentPatient,
   unConfirmAppointment,
 } from '../../services/appointmentsService';
@@ -18,13 +17,6 @@ export const fetchAppointments = createAsyncThunk<void, void>(
   'appointments/fetchAppointments',
   async () => {
     return await getAppointments();
-  },
-);
-
-export const fetchAppointmentsForDoctor = createAsyncThunk<void, number>(
-  'appointments/fetchAppointmentsForDoctor',
-  async (doctorId: number) => {
-    return await getAppointmentsForDoctor(doctorId);
   },
 );
 
